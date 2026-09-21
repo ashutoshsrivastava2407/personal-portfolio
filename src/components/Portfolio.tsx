@@ -20,11 +20,11 @@ import {
   X,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import portraitAsset from "@/assets/ashutosh-srivastava.jpeg.asset.json";
-import resumeAsset from "@/assets/ashutosh-srivastava-resume.pdf.asset.json";
-import mitAdtLogo from "@/assets/mit-adt-university-logo.png.asset.json";
-import stDominicLogo from "@/assets/st-dominic-savio-college-logo.png.asset.json";
-import cmsLogo from "@/assets/city-montessori-school-logo.png.asset.json";
+const portraitAsset = { url: "/assets/ashutosh-srivastava.jpeg" };
+const resumeAsset = { url: "/assets/ashutosh-srivastava-resume.pdf" };
+const mitAdtLogo = { url: "/assets/mit-adt-university-logo.png" };
+const stDominicLogo = { url: "/assets/st-dominic-savio-college-logo.png" };
+const cmsLogo = { url: "/assets/city-montessori-school-logo.png" };
 
 const links = {
   github: "https://github.com/ashutoshsrivastava2407",
